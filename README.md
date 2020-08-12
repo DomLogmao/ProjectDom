@@ -1,4 +1,7 @@
 # ProjectDom
 
 
-Angular with Semantic UI
+Angular with Semantic UI Sample
+
+
+*Future Ordering System design
