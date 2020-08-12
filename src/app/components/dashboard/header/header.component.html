@@ -1,3 +1,26 @@
-<p>
-  header works!
-</p>
+<div class="ui blue attached stackable inverted  menu">
+  <div class="ui container">
+    <a class="item">
+      <i class="home icon"></i> Home
+    </a>
+    <a class="item">
+      <i class="grid layout icon"></i> Products
+    </a>
+    <a class="item">
+      <i class="address book icon"></i> About Us
+    </a>
+   
+    <div class="right item">
+      <div class="ui input"><input type="text" placeholder="Search..."></div>
+      <div class="ui simple dropdown item">
+        Settings
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item"><i class="edit icon"></i> Edit Profile</a>
+          <a class="item"><i class="settings icon"></i> Account Settings</a>
+          <a class="item" (click)="logout()"><i class="settings icon" ></i> Log Out</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
